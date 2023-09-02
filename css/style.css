@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Opun';
+  src: url(../fonts/Opun\ Mai\ Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Opun-Medium';
+  src: url(../fonts/Opun\ Mai\ Medium.ttf);
+}
+
+body {
+  font-family: 'Opun-Medium';
+}
