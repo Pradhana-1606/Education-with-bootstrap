@@ -56,3 +56,24 @@ body {
 .landing-page .animation lottie-player {
   width: 30rem;
 }
+
+/* Keunggulan */
+.keunggulan .card {
+  margin-bottom: 1rem;
+}
+
+.keunggulan .card .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.keunggulan .card .card-body i {
+  font-size: 2rem;
+}
+
+.keunggulan .card .card-body p {
+  font-family: 'Opun', sans-serif;
+}
