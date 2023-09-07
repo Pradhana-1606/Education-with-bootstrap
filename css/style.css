@@ -36,21 +36,21 @@ body {
   height: 100vh;
 }
 
+.landing-page .teks {
+  width: 37rem;
+}
+
 .landing-page h1 {
-  width: 35rem;
   font-size: 3.5rem;
-  font-family: 'Opun-Extra-Bold';
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
   color: #363333;
   padding-top: 4rem;
   text-shadow: 1px 1px 2px #3333338c;
 }
 
-.landing-page h1 span {
-  color: rgb(32, 32, 75);
-}
-
-.landing-page h1 .ilmu {
-  color: rgb(231, 115, 20);
+.landing-page p {
+  margin-top: 2rem;
 }
 
 .landing-page .animation lottie-player {
@@ -60,6 +60,7 @@ body {
 /* Keunggulan */
 .keunggulan .card {
   margin-bottom: 1rem;
+  border: none;
 }
 
 .keunggulan .card .card-body {
@@ -71,9 +72,31 @@ body {
 }
 
 .keunggulan .card .card-body i {
-  font-size: 2rem;
+  font-size: 3rem;
+}
+
+.keunggulan .card .card-body .i-satu {
+  color: rgb(63, 63, 150);
+}
+
+.keunggulan .card .card-body .i-dua {
+  color: rgb(231, 144, 30);
+}
+
+.keunggulan .card .card-body .i-tiga {
+  color: rgb(221, 72, 97);
+}
+
+.keunggulan .card .card-body .i-empat {
+  color: green;
+}
+
+.keunggulan .card .card-body h5 {
+  font-family: 'Opun-Medium';
+  padding: 0.6rem 0;
 }
 
 .keunggulan .card .card-body p {
-  font-family: 'Opun', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
 }
