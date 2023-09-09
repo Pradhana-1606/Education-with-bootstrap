@@ -28,6 +28,14 @@ body {
   box-shadow: 1px 0 10px #33333317;
 }
 
+.navbar .navbar-toggler {
+  border: none;
+}
+
+.navbar .navbar-toggler:focus {
+  box-shadow: none;
+}
+
 /* landing page */
 
 .landing-page {
@@ -123,6 +131,20 @@ body {
 
 .get-it lottie-player {
   width: 30rem;
+}
+
+/* footer */
+footer {
+  border-top: 1px solid #33333317;
+}
+
+footer h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 1000;
+}
+
+footer p {
+  font-size: 0.8rem;
 }
 
 /* media queries */
