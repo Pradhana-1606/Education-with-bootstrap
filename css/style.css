@@ -1,26 +1,25 @@
 @font-face {
-  font-family: 'Opun';
+  font-family: "Opun";
   src: url(../fonts/Opun\ Mai\ Regular.ttf);
 }
 
 @font-face {
-  font-family: 'Opun-Medium';
+  font-family: "Opun-Medium";
   src: url(../fonts/Opun\ Mai\ Medium.ttf);
 }
 
 @font-face {
-  font-family: 'Opun-Black';
+  font-family: "Opun-Black";
   src: url(../fonts/Opun\ Mai\ Black.ttf);
 }
 
 @font-face {
-  font-family: 'Opun-Extra-Bold';
+  font-family: "Opun-Extra-Bold";
   src: url(../fonts/Opun\ Mai\ ExtraBold.ttf);
 }
 
 body {
-  font-family: 'Opun-Medium';
-  min-height: 10000px;
+  font-family: "Opun-Medium";
   background-color: #fff;
 }
 
@@ -29,20 +28,19 @@ body {
   box-shadow: 1px 0 10px #33333317;
 }
 
+/* landing page */
+
 .landing-page {
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
   align-items: center;
   height: 100vh;
 }
 
-.landing-page .teks {
-  width: 37rem;
-}
-
 .landing-page h1 {
   font-size: 3.5rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 900;
   color: #363333;
   padding-top: 4rem;
@@ -55,6 +53,19 @@ body {
 
 .landing-page .animation lottie-player {
   width: 30rem;
+}
+
+/* halaman dua */
+.page-two {
+  margin-bottom: 4rem;
+}
+
+.page-two lottie-player {
+  width: 30rem;
+}
+
+.page-two p {
+  text-align: justify;
 }
 
 /* Keunggulan */
@@ -92,11 +103,63 @@ body {
 }
 
 .keunggulan .card .card-body h5 {
-  font-family: 'Opun-Medium';
+  font-family: "Opun-Medium";
   padding: 0.6rem 0;
 }
 
 .keunggulan .card .card-body p {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
+}
+
+/* get it */
+.get-it {
+  margin-top: 2rem;
+}
+
+.get-it .gambar {
+  width: 80%;
+}
+
+.get-it lottie-player {
+  width: 30rem;
+}
+
+/* media queries */
+@media only screen and (min-width: 64em) {
+  .landing-page {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .landing-page .teks {
+    width: 37rem;
+    margin-right: 3rem;
+  }
+}
+
+@media only screen and (max-width: 63em) {
+  .landing-page {
+    height: auto;
+  }
+
+  .landing-page .teks {
+    width: 90%;
+    margin-top: 3rem;
+  }
+
+  .page-two .twoo {
+    width: 90%;
+  }
+
+  .page-two p {
+    text-align: justify;
+  }
+}
+
+@media only screen and (min-width: 20em) {
+  .landing-page .animation lottie-player {
+    width: 90%;
+    margin-bottom: 3rem;
+  }
 }
